@@ -29,6 +29,7 @@
 		9CED8D172A63F2880067C494 /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8D052A63F2870067C494 /* Urbanist-LightItalic.ttf */; };
 		9CED8D182A63F2880067C494 /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8D062A63F2880067C494 /* Urbanist-ThinItalic.ttf */; };
 		9CED8D192A63F2880067C494 /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8D072A63F2880067C494 /* Urbanist-SemiBoldItalic.ttf */; };
+		9CEF57942A6460BD00864992 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF57932A6460BD00864992 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		9CED8D062A63F2880067C494 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
 		9CED8D072A63F2880067C494 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		9CED8D1A2A63F2C20067C494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9CEF57932A6460BD00864992 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				9CED8CE82A63E7060067C494 /* ContentView.swift */,
+				9CEF57932A6460BD00864992 /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEF57942A6460BD00864992 /* TestView.swift in Sources */,
 				9CED8CE92A63E7060067C494 /* ContentView.swift in Sources */,
 				9CED8CE72A63E7060067C494 /* HichatApp.swift in Sources */,
 			);
