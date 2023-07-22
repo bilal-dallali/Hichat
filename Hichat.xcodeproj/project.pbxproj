@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0FB51A2A6C0F230010025B /* LetsYouInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FB5192A6C0F230010025B /* LetsYouInView.swift */; };
+		9C0FB51C2A6C13DE0010025B /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0FB51B2A6C13DE0010025B /* BackButtonView.swift */; };
 		9CED8CE72A63E7060067C494 /* HichatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED8CE62A63E7060067C494 /* HichatApp.swift */; };
-		9CED8CE92A63E7060067C494 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED8CE82A63E7060067C494 /* ContentView.swift */; };
+		9CED8CE92A63E7060067C494 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED8CE82A63E7060067C494 /* WelcomeScreenView.swift */; };
 		9CED8CEB2A63E7060067C494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8CEA2A63E7060067C494 /* Assets.xcassets */; };
 		9CED8CEE2A63E7060067C494 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8CED2A63E7060067C494 /* Preview Assets.xcassets */; };
 		9CED8D082A63F2880067C494 /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8CF62A63F2870067C494 /* Urbanist-ExtraBold.ttf */; };
@@ -29,13 +31,14 @@
 		9CED8D172A63F2880067C494 /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8D052A63F2870067C494 /* Urbanist-LightItalic.ttf */; };
 		9CED8D182A63F2880067C494 /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8D062A63F2880067C494 /* Urbanist-ThinItalic.ttf */; };
 		9CED8D192A63F2880067C494 /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CED8D072A63F2880067C494 /* Urbanist-SemiBoldItalic.ttf */; };
-		9CEF57942A6460BD00864992 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF57932A6460BD00864992 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C0FB5192A6C0F230010025B /* LetsYouInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsYouInView.swift; sourceTree = "<group>"; };
+		9C0FB51B2A6C13DE0010025B /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
 		9CED8CE32A63E7060067C494 /* Hichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED8CE62A63E7060067C494 /* HichatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HichatApp.swift; sourceTree = "<group>"; };
-		9CED8CE82A63E7060067C494 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CED8CE82A63E7060067C494 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		9CED8CEA2A63E7060067C494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CED8CED2A63E7060067C494 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9CED8CF62A63F2870067C494 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		9CED8D062A63F2880067C494 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
 		9CED8D072A63F2880067C494 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		9CED8D1A2A63F2C20067C494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		9CEF57932A6460BD00864992 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +113,9 @@
 		9CED8CF42A63EFE30067C494 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9CED8CE82A63E7060067C494 /* ContentView.swift */,
-				9CEF57932A6460BD00864992 /* TestView.swift */,
+				9CED8CE82A63E7060067C494 /* WelcomeScreenView.swift */,
+				9C0FB5192A6C0F230010025B /* LetsYouInView.swift */,
+				9C0FB51B2A6C13DE0010025B /* BackButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,9 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CEF57942A6460BD00864992 /* TestView.swift in Sources */,
-				9CED8CE92A63E7060067C494 /* ContentView.swift in Sources */,
+				9CED8CE92A63E7060067C494 /* WelcomeScreenView.swift in Sources */,
 				9CED8CE72A63E7060067C494 /* HichatApp.swift in Sources */,
+				9C0FB51A2A6C0F230010025B /* LetsYouInView.swift in Sources */,
+				9C0FB51C2A6C13DE0010025B /* BackButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
